@@ -1,0 +1,208 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1296px;
+}
+
+/* INIT OF HEADER BOX */
+
+.head {
+    background-color: #226401;
+    display: flex;
+    width: 100%;
+    box-shadow: 1px 1px 10px 0 rgb(0, 0, 0);
+    position: fixed;
+    height: 15%;
+    justify-content: center;
+}
+
+header > h1 {
+    font-size: 90px;  
+    color: #fff;
+    margin: auto;
+    display: flex;
+}
+
+.imgR {
+    margin-left: 10px;
+    margin-right: -25px;
+}
+
+header > img {
+    width: 150px;
+    height: 110px;
+    margin-top: -10px;
+    margin-left: -25px;
+}
+
+/* END OF HEADER BOX */
+
+/* INIT OF ASIDE BOX*/
+
+aside > strong > div > a {
+    color: #FFF;
+    padding: 9px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-left: 28px;
+    margin-bottom: 20px;
+    background-color: #0000007a;
+    font-size: 17px;
+}
+
+.classAside a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all ease-in-out .5s;
+}
+
+aside > strong > h1 {
+    color: #fff;
+    padding-left: 18px;
+    background-color: #0000007a;
+    margin-bottom: 8px;
+    margin-top: 13px;
+    height: 35px;
+    padding-top: 4px;
+}
+
+.ph1 {
+    margin-top: -18px;
+
+}
+
+aside {
+    width: 360px;
+    background-color: #226401;
+    float: left;
+    position: fixed;
+    margin-top: 7.6%;
+    height: auto;
+    box-shadow: 0px 10px 5px 5px rgba(0, 79, 20, 0.726);
+}    
+
+/* END OF ASIDE BOX*/
+
+/* INIT OF NAV BOX*/
+
+nav {
+    float: right;
+    width: 900px;
+    height: auto;
+    margin-top: 8%;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+nav > h2{
+    font-size: 60px;
+    color: #000;
+    margin: 40px 80px 20px 160px;
+}
+
+nav > img {
+    height: 450px;
+    width: 640px;
+    margin-left: 17%;
+    margin-top: 40px;
+}
+
+nav > strong > p {
+  margin-left: 19%;
+}
+
+.publicidad {
+    width: 750px;
+    margin-left: 10%;
+}
+
+.acrostico {
+    color: #000000;
+    font-size: 20px;
+}
+
+.acrosticoi {
+    color: #000000;
+    font-size: 20px;
+    margin-left: 0.5%; 
+}
+
+/* END OF NAV BOX*/
+
+/* INIT OF FOOTER BOX*/
+
+footer {
+    background-color: #226401;
+    float: right;
+    height: 100px;
+    width: 880px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0,.2) ;
+}
+
+footer > strong > h4 {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    background-color: #0000007a;
+    height: 35px;
+    padding-top: 5px;
+}
+
+footer > strong > div > i{
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    margin-right: 2px;
+    padding-top: 7px;
+    color: #fff;
+    background-color: #0000007a;
+}    
+
+footer > strong > div > p {
+    margin-top: 4px;
+    color: #fff;
+    background-color: #0000007a;
+    border-radius: 15px;
+    
+}
+
+footer > strong > div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.pcel {
+    height: 30px;
+    width: 158px;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin-right: 35px;
+}
+
+.pcorreo {
+    height: 30px;
+    width: 188px;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin-right: 35px;
+}
+
+.pubi {
+    height: 30px;
+    width: 304px;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+/* END OF FOOTER BOX*/
